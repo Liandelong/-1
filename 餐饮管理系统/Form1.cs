@@ -251,7 +251,7 @@ namespace 餐饮管理系统
             Socketlisten = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             //设置监听ip和端口号
             IPAddress ip = IPAddress.Parse("172.19.224.190");//IPAddress.Parse(textBox1.Text);
-            IPEndPoint point = new IPEndPoint(ip, 10066);
+            IPEndPoint point = new IPEndPoint(ip, 10069);
             //绑定ip和port
             Socketlisten.Bind(point);
             Socketlisten.Listen(10);
